@@ -235,12 +235,12 @@
                     albumCover.src = data.results[0].artworkUrl100.replace('100x100', '300x300');
                     addToHistory(artist, title, data.results[0].artworkUrl100.replace('100x100', '80x80')); 
                 } else {
-                    albumCover.src = 'https://github.com/ruicirilo/Radio-Cidade/blob/main/img/cidade%20FM.png?raw=true';
-                    addToHistory(artist, title, 'https://github.com/ruicirilo/Radio-Cidade/blob/main/img/cidade%20FM.png?raw=true');
+                    albumCover.src = 'https://github.com/ruicirilo/Radio-Record-Lisboa/blob/main/radio%20record%20album.jpeg?raw=true';
+                    addToHistory(artist, title, 'https://github.com/ruicirilo/Radio-Record-Lisboa/blob/main/radio%20record%20album.jpeg?raw=true');
                 }
             } catch (error) {
                 console.error('Erro ao buscar capa do álbum:', error);
-                albumCover.src = 'https://github.com/ruicirilo/Radio-Cidade/blob/main/img/cidade%20FM.png?raw=true';
+                albumCover.src = 'https://github.com/ruicirilo/Radio-Record-Lisboa/blob/main/radio%20record%20album.jpeg?raw=true';
             }
         }
 
